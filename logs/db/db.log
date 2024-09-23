@@ -1,0 +1,419 @@
+11:47:49.259 recent-transaction Delete type=3 #1
+
+11:47:49.289 tmp Delete type=3 #1
+
+11:47:49.332 properties Delete type=3 #1
+
+11:47:49.482 trans-cache Delete type=3 #1
+
+11:47:49.554 block_KDB Delete type=3 #1
+
+11:47:49.568 accountTrie Delete type=3 #1
+
+11:47:49.586 delegation Delete type=3 #1
+
+11:47:49.595 witness Delete type=3 #1
+
+11:47:49.603 reward-vi Delete type=3 #1
+
+11:47:49.614 account Delete type=3 #1
+
+11:47:49.621 balance-trace Delete type=3 #1
+
+11:47:49.628 account-trace Delete type=3 #1
+
+11:47:49.635 witness_schedule Delete type=3 #1
+
+11:47:49.641 votes Delete type=3 #1
+
+11:47:49.662 account-asset Delete type=3 #1
+
+11:47:49.667 block Delete type=3 #1
+
+11:47:49.674 asset-issue Delete type=3 #1
+
+11:47:49.679 asset-issue-v2 Delete type=3 #1
+
+11:47:49.684 block-index Delete type=3 #1
+
+11:47:49.689 accountid-index Delete type=3 #1
+
+11:47:49.694 account-index Delete type=3 #1
+
+11:47:49.710 proposal Delete type=3 #1
+
+11:47:49.716 exchange Delete type=3 #1
+
+11:47:49.721 exchange-v2 Delete type=3 #1
+
+11:47:49.726 market_account Delete type=3 #1
+
+11:47:49.731 market_order Delete type=3 #1
+
+11:47:49.737 market_pair_price_to_order Delete type=3 #1
+
+11:47:49.742 market_pair_to_price Delete type=3 #1
+
+11:47:49.749 abi Delete type=3 #1
+
+11:47:49.754 code Delete type=3 #1
+
+11:47:49.760 contract Delete type=3 #1
+
+11:47:49.766 contract-state Delete type=3 #1
+
+11:47:49.771 DelegatedResource Delete type=3 #1
+
+11:47:49.777 DelegatedResourceAccountIndex Delete type=3 #1
+
+11:47:49.782 storage-row Delete type=3 #1
+
+11:47:49.857 nullifier Delete type=3 #1
+
+11:47:49.863 zkProof Delete type=3 #1
+
+11:47:49.868 IncrementalMerkleTree Delete type=3 #1
+
+11:47:49.872 common Delete type=3 #1
+
+11:47:49.877 trans Delete type=3 #1
+
+11:47:49.883 transactionRetStore Delete type=3 #1
+
+11:47:49.888 recent-block Delete type=3 #1
+
+11:47:49.893 transactionHistoryStore Delete type=3 #1
+
+11:47:49.897 common-database Delete type=3 #1
+
+11:47:49.902 pbft-sign-data Delete type=3 #1
+
+11:47:49.907 tree-block-index Delete type=3 #1
+
+11:47:49.913 section-bloom Delete type=3 #1
+
+11:47:50.159 asset-issue-v2 Delete type=3 #1
+
+11:47:50.160 asset-issue-v2 Recovering log #3
+11:47:50.161 asset-issue-v2 Delete type=0 #3
+
+11:47:50.161 asset-issue-v2 Delete type=3 #2
+
+11:47:50.164 exchange-v2 Delete type=3 #1
+
+11:47:50.165 exchange-v2 Recovering log #3
+11:47:50.166 exchange-v2 Delete type=0 #3
+
+11:47:50.166 exchange-v2 Delete type=3 #2
+
+11:49:48.509 recent-transaction Recovering log #3
+11:49:48.510 recent-transaction Level-0 table #5: started
+11:49:48.510 recent-transaction Level-0 table #5: 0 bytes OK
+11:49:48.512 recent-transaction Delete type=0 #3
+
+11:49:48.512 recent-transaction Delete type=3 #2
+
+11:49:48.539 tmp Recovering log #3
+11:49:48.541 tmp Delete type=0 #3
+
+11:49:48.541 tmp Delete type=3 #2
+
+11:49:48.578 properties Recovering log #3
+11:49:48.579 properties Level-0 table #5: started
+11:49:48.580 properties Level-0 table #5: 3968 bytes OK
+11:49:48.581 properties Delete type=0 #3
+
+11:49:48.581 properties Delete type=3 #2
+
+11:49:48.702 trans-cache Recovering log #3
+11:49:48.704 trans-cache Delete type=0 #3
+
+11:49:48.704 trans-cache Delete type=3 #2
+
+11:49:48.771 block_KDB Recovering log #3
+11:49:48.773 block_KDB Delete type=0 #3
+
+11:49:48.773 block_KDB Delete type=3 #2
+
+11:49:48.785 accountTrie Recovering log #3
+11:49:48.785 accountTrie Level-0 table #5: started
+11:49:48.785 accountTrie Level-0 table #5: 0 bytes OK
+11:49:48.787 accountTrie Delete type=0 #3
+
+11:49:48.787 accountTrie Delete type=3 #2
+
+11:49:48.804 delegation Recovering log #3
+11:49:48.804 delegation Level-0 table #5: started
+11:49:48.804 delegation Level-0 table #5: 0 bytes OK
+11:49:48.806 delegation Delete type=0 #3
+
+11:49:48.806 delegation Delete type=3 #2
+
+11:49:48.811 witness Recovering log #3
+11:49:48.812 witness Level-0 table #5: started
+11:49:48.812 witness Level-0 table #5: 1395 bytes OK
+11:49:48.813 witness Delete type=0 #3
+
+11:49:48.814 witness Delete type=3 #2
+
+11:49:48.827 reward-vi Recovering log #3
+11:49:48.828 reward-vi Delete type=0 #3
+
+11:49:48.828 reward-vi Delete type=3 #2
+
+11:49:48.838 account Recovering log #3
+11:49:48.838 account Level-0 table #5: started
+11:49:48.839 account Level-0 table #5: 1370 bytes OK
+11:49:48.840 account Delete type=0 #3
+
+11:49:48.840 account Delete type=3 #2
+
+11:49:48.846 balance-trace Recovering log #3
+11:49:48.847 balance-trace Level-0 table #5: started
+11:49:48.847 balance-trace Level-0 table #5: 399 bytes OK
+11:49:48.848 balance-trace Delete type=0 #3
+
+11:49:48.849 balance-trace Delete type=3 #2
+
+11:49:48.854 account-trace Recovering log #3
+11:49:48.854 account-trace Level-0 table #5: started
+11:49:48.855 account-trace Level-0 table #5: 217 bytes OK
+11:49:48.856 account-trace Delete type=0 #3
+
+11:49:48.856 account-trace Delete type=3 #2
+
+11:49:48.861 witness_schedule Recovering log #3
+11:49:48.861 witness_schedule Level-0 table #5: started
+11:49:48.862 witness_schedule Level-0 table #5: 697 bytes OK
+11:49:48.863 witness_schedule Delete type=0 #3
+
+11:49:48.864 witness_schedule Delete type=3 #2
+
+11:49:48.869 votes Recovering log #3
+11:49:48.869 votes Level-0 table #5: started
+11:49:48.869 votes Level-0 table #5: 0 bytes OK
+11:49:48.871 votes Delete type=0 #3
+
+11:49:48.871 votes Delete type=3 #2
+
+11:49:48.893 account-asset Recovering log #3
+11:49:48.895 account-asset Delete type=0 #3
+
+11:49:48.895 account-asset Delete type=3 #2
+
+11:49:48.900 block Recovering log #3
+11:49:48.900 block Level-0 table #5: started
+11:49:48.900 block Level-0 table #5: 522 bytes OK
+11:49:48.901 block Delete type=0 #3
+
+11:49:48.902 block Delete type=3 #2
+
+11:49:48.908 asset-issue Recovering log #3
+11:49:48.909 asset-issue Level-0 table #5: started
+11:49:48.909 asset-issue Level-0 table #5: 0 bytes OK
+11:49:48.910 asset-issue Delete type=0 #3
+
+11:49:48.910 asset-issue Delete type=3 #2
+
+11:49:48.914 asset-issue-v2 Recovering log #5
+11:49:48.916 asset-issue-v2 Delete type=0 #5
+
+11:49:48.916 asset-issue-v2 Delete type=3 #4
+
+11:49:48.921 block-index Recovering log #3
+11:49:48.922 block-index Level-0 table #5: started
+11:49:48.922 block-index Level-0 table #5: 141 bytes OK
+11:49:48.923 block-index Delete type=0 #3
+
+11:49:48.924 block-index Delete type=3 #2
+
+11:49:48.927 accountid-index Recovering log #3
+11:49:48.927 accountid-index Level-0 table #5: started
+11:49:48.928 accountid-index Level-0 table #5: 194 bytes OK
+11:49:48.929 accountid-index Delete type=0 #3
+
+11:49:48.929 accountid-index Delete type=3 #2
+
+11:49:48.933 account-index Recovering log #3
+11:49:48.933 account-index Level-0 table #5: started
+11:49:48.933 account-index Level-0 table #5: 213 bytes OK
+11:49:48.935 account-index Delete type=0 #3
+
+11:49:48.935 account-index Delete type=3 #2
+
+11:49:48.941 proposal Recovering log #3
+11:49:48.941 proposal Level-0 table #5: started
+11:49:48.941 proposal Level-0 table #5: 0 bytes OK
+11:49:48.962 proposal Delete type=0 #3
+
+11:49:48.963 proposal Delete type=3 #2
+
+11:49:48.968 exchange Recovering log #3
+11:49:48.968 exchange Level-0 table #5: started
+11:49:48.968 exchange Level-0 table #5: 0 bytes OK
+11:49:48.969 exchange Delete type=0 #3
+
+11:49:48.969 exchange Delete type=3 #2
+
+11:49:48.972 exchange-v2 Recovering log #5
+11:49:48.974 exchange-v2 Delete type=0 #5
+
+11:49:48.974 exchange-v2 Delete type=3 #4
+
+11:49:48.978 market_account Recovering log #3
+11:49:48.978 market_account Level-0 table #5: started
+11:49:48.978 market_account Level-0 table #5: 0 bytes OK
+11:49:48.979 market_account Delete type=0 #3
+
+11:49:48.979 market_account Delete type=3 #2
+
+11:49:48.983 market_order Recovering log #3
+11:49:48.983 market_order Level-0 table #5: started
+11:49:48.983 market_order Level-0 table #5: 0 bytes OK
+11:49:48.985 market_order Delete type=0 #3
+
+11:49:48.985 market_order Delete type=3 #2
+
+11:49:48.991 market_pair_price_to_order Recovering log #3
+11:49:48.991 market_pair_price_to_order Level-0 table #5: started
+11:49:48.991 market_pair_price_to_order Level-0 table #5: 0 bytes OK
+11:49:48.992 market_pair_price_to_order Delete type=0 #3
+
+11:49:48.992 market_pair_price_to_order Delete type=3 #2
+
+11:49:48.996 market_pair_to_price Recovering log #3
+11:49:48.996 market_pair_to_price Level-0 table #5: started
+11:49:48.996 market_pair_to_price Level-0 table #5: 0 bytes OK
+11:49:48.998 market_pair_to_price Delete type=0 #3
+
+11:49:48.998 market_pair_to_price Delete type=3 #2
+
+11:49:49.003 abi Recovering log #3
+11:49:49.003 abi Level-0 table #5: started
+11:49:49.003 abi Level-0 table #5: 0 bytes OK
+11:49:49.004 abi Delete type=0 #3
+
+11:49:49.004 abi Delete type=3 #2
+
+11:49:49.009 code Recovering log #3
+11:49:49.009 code Level-0 table #5: started
+11:49:49.009 code Level-0 table #5: 0 bytes OK
+11:49:49.010 code Delete type=0 #3
+
+11:49:49.010 code Delete type=3 #2
+
+11:49:49.016 contract Recovering log #3
+11:49:49.016 contract Level-0 table #5: started
+11:49:49.016 contract Level-0 table #5: 0 bytes OK
+11:49:49.017 contract Delete type=0 #3
+
+11:49:49.017 contract Delete type=3 #2
+
+11:49:49.022 contract-state Recovering log #3
+11:49:49.022 contract-state Level-0 table #5: started
+11:49:49.022 contract-state Level-0 table #5: 0 bytes OK
+11:49:49.024 contract-state Delete type=0 #3
+
+11:49:49.024 contract-state Delete type=3 #2
+
+11:49:49.029 DelegatedResource Recovering log #3
+11:49:49.029 DelegatedResource Level-0 table #5: started
+11:49:49.029 DelegatedResource Level-0 table #5: 0 bytes OK
+11:49:49.030 DelegatedResource Delete type=0 #3
+
+11:49:49.030 DelegatedResource Delete type=3 #2
+
+11:49:49.035 DelegatedResourceAccountIndex Recovering log #3
+11:49:49.035 DelegatedResourceAccountIndex Level-0 table #5: started
+11:49:49.035 DelegatedResourceAccountIndex Level-0 table #5: 0 bytes OK
+11:49:49.036 DelegatedResourceAccountIndex Delete type=0 #3
+
+11:49:49.036 DelegatedResourceAccountIndex Delete type=3 #2
+
+11:49:49.040 storage-row Recovering log #3
+11:49:49.041 storage-row Level-0 table #5: started
+11:49:49.041 storage-row Level-0 table #5: 0 bytes OK
+11:49:49.042 storage-row Delete type=0 #3
+
+11:49:49.042 storage-row Delete type=3 #2
+
+11:49:49.045 nullifier Recovering log #3
+11:49:49.046 nullifier Level-0 table #5: started
+11:49:49.046 nullifier Level-0 table #5: 0 bytes OK
+11:49:49.047 nullifier Delete type=0 #3
+
+11:49:49.047 nullifier Delete type=3 #2
+
+11:49:49.050 zkProof Recovering log #3
+11:49:49.051 zkProof Delete type=0 #3
+
+11:49:49.051 zkProof Delete type=3 #2
+
+11:49:49.150 IncrementalMerkleTree Recovering log #3
+11:49:49.151 IncrementalMerkleTree Level-0 table #5: started
+11:49:49.151 IncrementalMerkleTree Level-0 table #5: 0 bytes OK
+11:49:49.154 IncrementalMerkleTree Delete type=0 #3
+
+11:49:49.154 IncrementalMerkleTree Delete type=3 #2
+
+11:49:49.158 common Recovering log #3
+11:49:49.160 common Delete type=0 #3
+
+11:49:49.160 common Delete type=3 #2
+
+11:49:49.164 trans Recovering log #3
+11:49:49.164 trans Level-0 table #5: started
+11:49:49.164 trans Level-0 table #5: 0 bytes OK
+11:49:49.168 trans Delete type=0 #3
+
+11:49:49.168 trans Delete type=3 #2
+
+11:49:49.172 transactionRetStore Recovering log #3
+11:49:49.172 transactionRetStore Level-0 table #5: started
+11:49:49.172 transactionRetStore Level-0 table #5: 0 bytes OK
+11:49:49.174 transactionRetStore Delete type=0 #3
+
+11:49:49.174 transactionRetStore Delete type=3 #2
+
+11:49:49.177 recent-block Recovering log #3
+11:49:49.177 recent-block Level-0 table #5: started
+11:49:49.177 recent-block Level-0 table #5: 122 bytes OK
+11:49:49.179 recent-block Delete type=0 #3
+
+11:49:49.179 recent-block Delete type=3 #2
+
+11:49:49.184 transactionHistoryStore Recovering log #3
+11:49:49.184 transactionHistoryStore Level-0 table #5: started
+11:49:49.184 transactionHistoryStore Level-0 table #5: 0 bytes OK
+11:49:49.185 transactionHistoryStore Delete type=0 #3
+
+11:49:49.185 transactionHistoryStore Delete type=3 #2
+
+11:49:49.188 common-database Recovering log #3
+11:49:49.189 common-database Delete type=0 #3
+
+11:49:49.189 common-database Delete type=3 #2
+
+11:49:49.191 pbft-sign-data Recovering log #3
+11:49:49.193 pbft-sign-data Delete type=0 #3
+
+11:49:49.193 pbft-sign-data Delete type=3 #2
+
+11:49:49.196 tree-block-index Recovering log #3
+11:49:49.196 tree-block-index Level-0 table #5: started
+11:49:49.196 tree-block-index Level-0 table #5: 0 bytes OK
+11:49:49.197 tree-block-index Delete type=0 #3
+
+11:49:49.197 tree-block-index Delete type=3 #2
+
+11:49:49.201 section-bloom Recovering log #3
+11:49:49.201 section-bloom Level-0 table #5: started
+11:49:49.201 section-bloom Level-0 table #5: 0 bytes OK
+11:49:49.203 section-bloom Delete type=0 #3
+
+11:49:49.203 section-bloom Delete type=3 #2
+
+11:50:35.620 tmp Level-0 table #7: started
+11:50:35.702 tmp Level-0 table #7: 1856759 bytes OK
+11:50:35.702 tmp Delete type=0 #5
+

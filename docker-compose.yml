@@ -1,0 +1,62 @@
+version: '3.8'
+services:
+  fullnode:
+    image: tronprotocol/java-tron
+    container_name: fullnode
+    restart: always
+    command: ["-c", "/java-tron/config/main_net_config.conf", "--es"]
+    deploy:
+      resources:
+        limits:
+          cpus: '32'
+          memory: 32G
+        reservations:
+          cpus: '16'
+          memory: 16G
+    ports:
+      - 8090:8090
+      - 8091:8091
+      - 5555:5555
+      - 18888:18888
+      - 50051:50051
+      - 50061:50061
+      - 8545:8545
+      - 8555:8555
+      - 8565:8565
+      - 9527:9527
+    ulimits:
+      nofile:
+        soft: 4096  # Soft limit
+        hard: 4096  # Hard limit
+    volumes:
+      - ./output-directory:/java-tron/output-directory
+      - ./event-plugins/:/java-tron/event-plugins
+      - ./config:/java-tron/config/
+      - ./logs:/java-tron/logs
+  prometheus:
+    image: prom/prometheus
+    container_name: prometheus
+    restart: always
+    ports:
+      - 9090:9090
+    volumes:
+      - ./monitoring/prometheus.yml:/etc/prometheus/prometheus.yml
+    depends_on:
+      - fullnode
+  grafana:
+    image: grafana/grafana
+    container_name: grafana
+    restart: always
+    ports:
+      - 3000:3000
+    volumes:
+      - ./monitoring/grafana/datasource.yml:/etc/grafana/provisioning/datasources/datasource.yml
+      - ./monitoring/grafana/dashboards.yml:/etc/grafana/provisioning/dashboards/dashboards.yml
+      - ./monitoring/grafana/prometheus.yml:/etc/grafana/provisioning/dashboards/prometheus.yml
+    depends_on:
+      - fullnode
+      - prometheus
+
+
+
+    
