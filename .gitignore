@@ -1,3 +1,15 @@
 output-directory/
-log/
+logs/
 event-plugins/
+logs/tron-2024-09-23.0.log.gz
+logs/tron-2024-09-24.0.log.gz
+logs/tron-2024-09-25.0.log.gz
+logs/tron-2024-09-26.0.log354731988676223.tmp
+logs/tron.log
+logs/db/db-2024-09-23.0.log.gz
+logs/db/db-2024-09-24.0.log.gz
+logs/db/db-2024-09-25.0.log.gz
+logs/db/db-2024-09-26.0.log354734704706262.tmp
+logs/db/db.log
+logs/tron.log
+logs/db/db.log

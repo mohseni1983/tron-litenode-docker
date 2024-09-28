@@ -33,6 +33,8 @@ services:
       - ./event-plugins/:/java-tron/event-plugins
       - ./config:/java-tron/config/
       - ./logs:/java-tron/logs
+    networks:
+      - nginx-proxy
   prometheus:
     image: prom/prometheus
     container_name: prometheus
@@ -43,19 +45,25 @@ services:
       - ./monitoring/prometheus.yml:/etc/prometheus/prometheus.yml
     depends_on:
       - fullnode
+    networks:
+      - nginx-proxy
   grafana:
     image: grafana/grafana
     container_name: grafana
     restart: always
+    volumes:
+      - ./monitoring/grafana-data/:/var/lib/grafana
     ports:
       - 3000:3000
-    volumes:
-      - ./monitoring/grafana/datasource.yml:/etc/grafana/provisioning/datasources/datasource.yml
-      - ./monitoring/grafana/dashboards.yml:/etc/grafana/provisioning/dashboards/dashboards.yml
-      - ./monitoring/grafana/prometheus.yml:/etc/grafana/provisioning/dashboards/prometheus.yml
     depends_on:
       - fullnode
       - prometheus
+    networks:
+      - nginx-proxy
+networks:
+  nginx-proxy:
+    external: true
+
 
 
 
