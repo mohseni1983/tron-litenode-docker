@@ -12,21 +12,21 @@ First of all, download the latest lite node snapshot from official source in the
 
 https://developers.tron.network/docs/main-net-database-snapshots
 
-  wget http://34.143.247.77/backup20241209/LiteFullNode_output-directory.tgz
+`  wget http://34.143.247.77/backup20241209/LiteFullNode_output-directory.tgz`
 
 *Step2: clone the following git repository:*
 
-  git clone https://github.com/mohseni1983/tron-litenode-docker
+`git clone https://github.com/mohseni1983/tron-litenode-docker`
 
 *Step3: run the docker container using the following command*
 
-  cd tron-litenode-docker
+`cd tron-litenode-docker`
 
-  docker compose up -d 
+`docker compose up -d `
 
 *Step4: extract the downloaded snapshot*
 
-	tar xvf LiteFullNode_output-directory.tgz
+`tar xvf LiteFullNode_output-directory.tgz`
  
 *Step5: stop the docker instance and copy the extracted “snapshot” directory to the “tron-litenode-docker” directory and replace the old directory*
 
@@ -34,7 +34,7 @@ https://developers.tron.network/docs/main-net-database-snapshots
 
 *Step7: check the sync log using the following command*
 
-	tail -f logs/tron.log | grep “PushBlock”
+`tail -f logs/tron.log | grep “PushBlock”`
  
 you can check the block number in the log with https://tronscan.org current block for sure.
 
@@ -42,6 +42,3 @@ you can check the block number in the log with https://tronscan.org current bloc
 Other steps are to config the Prometheus and the Grafana for monitoring the full node using the web
 You can download a config file for Tron monitoring in Grafana with the following link 
 https://grafana.com/grafana/dashboards/16567-java-tron-server/
-
-
-
